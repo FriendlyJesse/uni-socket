@@ -4,6 +4,7 @@
   "description": "uni-app 版 socket 封装",
   "main": "dist/bundle.umd.js",
   "module": "dist/bundle.esm.js",
+  "typings": "dist/index.d.ts",
   "sideEffects": false,
   "repository": {
     "type": "git",
@@ -16,6 +17,7 @@
     "dev": "rollup -w -c",
     "build": "rollup -c",
     "lint": "eslint ./src/**/*.{js,ts} --fix",
+    "release": "bash release.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -27,7 +29,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@friendlyjesse/library": "^1.0.2"
+    "@friendlyjesse/library": "^1.0.4"
   },
   "devDependencies": {
     "@dcloudio/types": "^2.2.4",
