@@ -1,5 +1,5 @@
 {
-  "name": "uni-socket",
+  "name": "@friendlyjesse/uni-socket",
   "version": "1.0.0",
   "description": "uni-app 版 socket 封装",
   "main": "dist/bundle.umd.js",
@@ -27,7 +27,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@friendlyjesse/library": "^1.0.1"
+    "@friendlyjesse/library": "^1.0.2"
   },
   "devDependencies": {
     "@dcloudio/types": "^2.2.4",

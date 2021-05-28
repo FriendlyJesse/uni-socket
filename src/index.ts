@@ -1,5 +1,4 @@
-import { eventBus, json2params } from '@friendlyjesse/library'
-// import json2params from './json2params'
+import { EventBus, json2params } from '@friendlyjesse/library'
 
 import { Options } from '../typings'
 
@@ -8,7 +7,7 @@ import { Options } from '../typings'
  * @author Jesse <jessexinyu@foxmail.com>
  * @extends EventBus
  */
-class Socket extends eventBus {
+class Socket extends EventBus {
   private instance: any = null
   private status = 'unconnected' // unconnected, connecting, connected, failed, closed, turnoff(主动关闭)
   private heartbeat: any = null // 心跳
